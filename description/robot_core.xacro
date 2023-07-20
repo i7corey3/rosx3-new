@@ -27,7 +27,7 @@
         
     </link>
 
-    <joint name="chassis_joiny" type="revolute">
+    <joint name="chassis_joiny" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
     </joint>
