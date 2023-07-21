@@ -57,7 +57,7 @@
     <link name="Left_wheel">
         <visual>
             <geometry>
-                <cylinder radius="0.065" length="0.03"/>
+                <cylinder radius="0.0285" length="0.0"/>
             </geometry>
             <material name="white"/>
         </visual>
