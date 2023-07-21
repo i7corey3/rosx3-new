@@ -21,12 +21,15 @@
         <color rgba="1 0 0 1" />
     </material>
 
+    <!--Base link-->
 
 
     <link name="base_link">
         
     </link>
 
+    <!--Chassis link-->
+    
     <joint name="chassis_joiny" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
@@ -41,4 +44,23 @@
         </visual>
     </link>
 
+    <!--Left front Wheel -->
+
+
+    <joint name="left_front_wheel" type="continuous">
+        <parent link="base_link"/>
+        <child link="Left_wheel"/>
+        <origin xyz="0.0 0.175 0.0" rpy="-${pi/2} 0.0 0.0"/>
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <link name="Left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.065" length="0.03"/>
+            </geometry>
+            <material name="white">
+        </visual>
+        
+    </link>
 </robot>
