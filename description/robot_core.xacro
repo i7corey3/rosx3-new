@@ -61,6 +61,5 @@
             </geometry>
             <material name="white">
         </visual>
-        
     </link>
 </robot>
