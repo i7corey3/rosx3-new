@@ -39,7 +39,7 @@
         <visual>
             <origin xyz="0.0 0.0 0.0"/>
             <geometry>
-                <box size="0.2 0.2 0.01"/>
+                <box size="0.241 0.195 0.2"/>
             </geometry>
         </visual>
     </link>
