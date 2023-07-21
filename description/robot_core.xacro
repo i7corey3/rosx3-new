@@ -30,7 +30,7 @@
 
     <!--Chassis link-->
     
-    <joint name="chassis_joiny" type="fixed">
+    <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
     </joint>
@@ -59,7 +59,7 @@
             <geometry>
                 <cylinder radius="0.065" length="0.03"/>
             </geometry>
-            <material name="white">
+            <material name="white"/>
         </visual>
     </link>
 </robot>
