@@ -39,7 +39,7 @@
         <visual>
             <origin xyz="0.0 0.0 0.078"/>
             <geometry>
-                <box size="0.241 0.195 0.2"/>
+                <box size="0.241 0.195 0.285"/>
             </geometry>
         </visual>
     </link>
@@ -122,14 +122,14 @@
      <joint name="caster_wheel_link" type="fixed">
         <parent link="chassis"/>
         <child link="caster_wheel"/>
-        <origin xyz="0.0 0.0 -0.02"/>
+        <origin xyz="0.0 0.0 -0.0285"/>
      </joint>
 
 
      <link name="caster_wheel">
         <visual>
             <geometry>
-                <sphere radius="0.05"/>
+                <sphere radius="0.0285"/>
             </geometry>
             <material name="orange"/>
         </visual>
