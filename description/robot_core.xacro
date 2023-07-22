@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
 
+    <xacro:include filename="inertial_macros.xacro"/>
+
 <material name="white">
         <color rgba="1 1 1 1" />
     </material>
@@ -48,6 +50,9 @@
                 <box size="0.241 0.195 0.2"/>
             </geometry>
         </collision>
+        <xacro:inertial_box mass="0.5" x="0.241" y="0.195" z="0.2">
+            <origin xyz="0.0 0.0 0.09" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_box> 
     </link>
 
     <!--Right Rear Wheel -->
@@ -72,6 +77,9 @@
                 <cylinder radius="0.0285" length="0.025"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.0285">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_cylinder>
     </link>
 
     <!--Right Front Wheel -->
@@ -95,6 +103,9 @@
                 <cylinder radius="0.0285" length="0.025"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.0285">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_cylinder>
     </link>
 
     <!--Left Rear Wheel -->
@@ -118,6 +129,9 @@
                 <cylinder radius="0.0285" length="0.025"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.0285">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_cylinder>
     </link>
 
    <!--Left Front Wheel -->
@@ -141,6 +155,9 @@
                 <cylinder radius="0.0285" length="0.025"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.0285">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_cylinder>
     </link>
 
      <!--Caster Wheel Link-->
@@ -164,5 +181,8 @@
                 <sphere radius="0.0285"/>
             </geometry>
         </collision>
+        <xacro:inertial_sphere mass="0.1" radius="0.0285">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </xacro:inertial_sphere>    
      </link>
 </robot>
