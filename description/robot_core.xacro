@@ -42,6 +42,12 @@
                 <box size="0.241 0.195 0.2"/>
             </geometry>
         </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.09"/>
+            <geometry>
+                <box size="0.241 0.195 0.2"/>
+            </geometry>
+        </collision>
     </link>
 
     <!--Right Rear Wheel -->
@@ -61,6 +67,11 @@
             </geometry>
             <material name="Blue"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.0285" length="0.025"/>
+            </geometry>
+        </collision>
     </link>
 
     <!--Right Front Wheel -->
@@ -79,6 +90,11 @@
             </geometry>
             <material name="white"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.0285" length="0.025"/>
+            </geometry>
+        </collision>
     </link>
 
     <!--Left Rear Wheel -->
@@ -97,6 +113,11 @@
             </geometry>
             <material name="Blue"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.0285" length="0.025"/>
+            </geometry>
+        </collision>
     </link>
 
    <!--Left Front Wheel -->
@@ -115,6 +136,11 @@
             </geometry>
             <material name="white"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.0285" length="0.025"/>
+            </geometry>
+        </collision>
     </link>
 
      <!--Caster Wheel Link-->
@@ -133,6 +159,10 @@
             </geometry>
             <material name="orange"/>
         </visual>
-        
+        <collision>
+            <geometry>
+                <sphere radius="0.0285"/>
+            </geometry>
+        </collision>
      </link>
 </robot>
