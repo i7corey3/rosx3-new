@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     
     <gazebo>
-        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+        <plugin name="diff_drive_front" filename="libgazebo_ros_diff_drive.so">
 
             <!-- Front Wheel information-->
             <left_joint>Left_Front_wheel_joint</left_joint>
@@ -25,7 +25,7 @@
     </gazebo>
 
     <gazebo>
-        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+        <plugin name="diff_drive_rear" filename="libgazebo_ros_diff_drive.so">
 
             <!-- Rear Wheel information-->
             <left_joint2>left_Rear_wheel_joint</left_joint2>
