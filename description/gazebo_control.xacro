@@ -2,34 +2,13 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     
     <gazebo>
-        <plugin name="diff_drive_front" filename="libgazebo_ros_diff_drive.so">
+        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
 
-            <!-- Front Wheel information-->
-            <left_joint>Left_Front_wheel_joint</left_joint>
-            <right_joint>Right_Front_wheel_joint</right_joint>
-            <wheel_seperation>0.218</wheel_seperation>
-            <wheel_diameter>0.057</wheel_diameter>
-
-            <!-- limits -->
-            <max_wheel_torque>200</max_wheel_torque>
-            <max_wheel_acceleration>10.0</max_wheel_acceleration>
-
-            <!-- Output -->
-            <odometry_frame>odom</odometry_frame>
-            <robot_base_frame>base_link</robot_base_frame>
-
-            <publish_odom>ture</publish_odom>
-            <publish_odom_tf>ture</publish_odom_tf>
-            <publish_wheel_tf>true</publish_wheel_tf>
-        </plugin>
-    </gazebo>
-
-    <gazebo>
-        <plugin name="diff_drive_rear" filename="libgazebo_ros_diff_drive.so">
-
-            <!-- Rear Wheel information-->
-            <left_joint2>left_Rear_wheel_joint</left_joint2>
-            <right_joint2>Right_Rear_wheel_joint</right_joint2>
+            <!-- Wheel information-->
+            <leftR_joint>left_Rear_wheel_joint</leftR_joint>
+            <leftF_joint>Left_Front_wheel_joint</leftF_joint>
+            <rightR_joint>Right_Rear_wheel_joint</rightR_joint>
+            <rightF_joint>Right_Front_wheel_joint</rightF_joint>
             <wheel_seperation>0.218</wheel_seperation>
             <wheel_diameter>0.057</wheel_diameter>
 
