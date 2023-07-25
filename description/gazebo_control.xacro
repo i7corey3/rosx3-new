@@ -7,6 +7,9 @@
             <!-- Wheel information-->
             <leftR_joint>left_Rear_wheel_joint</leftR_joint>
             <leftF_joint>Left_Front_wheel_joint</leftF_joint>
+            <wheel_seperation>0.218</wheel_seperation>
+            <wheel_diameter>0.057</wheel_diameter>
+            
             <rightR_joint>Right_Rear_wheel_joint</rightR_joint>
             <rightF_joint>Right_Front_wheel_joint</rightF_joint>
             <wheel_seperation>0.218</wheel_seperation>
