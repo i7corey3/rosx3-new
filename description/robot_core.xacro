@@ -58,7 +58,7 @@
     <!--Right Rear Wheel -->
 
 
-    <joint name="Right_Rear_wheel_j" type="continuous">
+    <joint name="Right_Rear_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="Right_Rear_wheel"/>
         <origin xyz="-0.075 0.109 0.0" rpy="-${pi/2} 0.0 0.0"/>
@@ -84,7 +84,7 @@
 
     <!--Right Front Wheel -->
 
-    <joint name="Right_Front_wheel" type="continuous">
+    <joint name="Right_Front_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="Right_Front_wheel"/>
         <origin xyz="0.075 0.109 0.0" rpy="-${pi/2} 0.0 0.0"/>
@@ -110,7 +110,7 @@
 
     <!--Left Rear Wheel -->
 
-<joint name="left_Rear_wheel" type="continuous">
+<joint name="left_Rear_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="Left_Rear_wheel"/>
         <origin xyz="-0.075 -0.109 0.0" rpy="-${pi/2} 0.0 0.0"/>
@@ -136,7 +136,7 @@
 
    <!--Left Front Wheel -->
 
-    <joint name="Left_Front_wheel" type="continuous">
+    <joint name="Left_Front_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="Left_Front_wheel"/>
         <origin xyz="0.075 -0.109 0.0" rpy="-${pi/2} 0.0 0.0"/>
