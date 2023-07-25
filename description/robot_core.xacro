@@ -58,7 +58,7 @@
     <!--Right Rear Wheel -->
 
 
-    <joint name="Right_Rear_wheel" type="continuous">
+    <joint name="Right_Rear_wheel_j" type="continuous">
         <parent link="base_link"/>
         <child link="Right_Rear_wheel"/>
         <origin xyz="-0.075 0.109 0.0" rpy="-${pi/2} 0.0 0.0"/>
