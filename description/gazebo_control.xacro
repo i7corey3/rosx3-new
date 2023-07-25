@@ -22,7 +22,7 @@
 
             <publish_odom>ture</publish_odom>
             <publish_odom_tf>ture</publish_odom_tf>
-            <publish_wheel_tf>true<?publish_wheel_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
         </plugin>
     </gazebo>
 
