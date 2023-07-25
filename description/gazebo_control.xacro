@@ -28,8 +28,8 @@
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
 
             <!-- Rear Wheel information-->
-            <left_joint>left_Rear_wheel_joint</left_joint>
-            <right_joint>Right_Rear_wheel_joint</right_joint>
+            <left_joint2>left_Rear_wheel_joint</left_joint2>
+            <right_joint2>Right_Rear_wheel_joint</right_joint2>
             <wheel_seperation>0.218</wheel_seperation>
             <wheel_diameter>0.057</wheel_diameter>
 
