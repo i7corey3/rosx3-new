@@ -208,6 +208,9 @@
 
      <gazebo reference="caster_wheel">
         <material>Gazebo/Black</material>
+        <!--coeffecient of frictiob-->
+        <mu1 value="0.002"/>
+        <mu2 value="0.002"/>
     </gazebo>
 
 </robot>
