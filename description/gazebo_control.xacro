@@ -7,8 +7,10 @@
             <!-- Wheel information-->
             <commandTopic>cmd_vel</commandTopic>
             <odometryTopic>odom</odometryTopic>
-            <odometryFrame>odom</odometryFrame>
-            <robotBaseFrame>base_link</robotBaseFrame>
+            <LeftRear>left_Rear_wheel_joint</LeftRear>
+            <LeftFront>Left_Front_wheel_joint</LeftFront>
+            <RightFront>Right_Front_wheel_joint</RightFront>
+            <RightRear>Right_Rear_wheel_joint</RightRear>
 
             <!-- limits -->
             <max_wheel_torque>200</max_wheel_torque>
