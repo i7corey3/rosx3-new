@@ -2,13 +2,13 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     
     <gazebo>
-        <plugin name="skid_steer" filename="libgazebo_ros_skid_steer_drive.so">
+        <plugin name="omi_drive" filename="libgazebo_ros_planar_move.so">
 
             <!-- Wheel information-->
-            <leftFrontJoint>Left_Front_wheel_joint</leftFrontJoint>
-            <rightFrontJoint>Right_Front_wheel_joint</rightFrontJoint>
-            <leftRearJoint>left_Rear_wheel_joint</leftRearJoint>
-            <rightRearJoint>Right_Rear_wheel_joint</rightRearJoint>
+            <commandTopic>cmd_vel</commandTopic>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <robotBaseFrame>base_link</robotBaseFrame>
 
             <!-- limits -->
             <max_wheel_torque>200</max_wheel_torque>
