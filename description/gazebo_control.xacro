@@ -11,6 +11,7 @@
             <LeftFront>Left_Front_wheel_joint</LeftFront>
             <RightFront>Right_Front_wheel_joint</RightFront>
             <RightRear>Right_Rear_wheel_joint</RightRear>
+            <isRollerModel>true</isRollerModel>
 
             <!-- limits -->
             <max_wheel_torque>200</max_wheel_torque>
