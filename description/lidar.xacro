@@ -23,4 +23,9 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="Right_Rear_wheel">
+        <material>Gazebo/red</material>
+    </gazebo>
+    
 </robot>
