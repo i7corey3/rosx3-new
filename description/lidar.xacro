@@ -24,8 +24,8 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="Right_Rear_wheel">
+    <gazebo reference="laser_frame">
         <material>Gazebo/red</material>
     </gazebo>
-    
+
 </robot>
