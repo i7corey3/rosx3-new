@@ -22,7 +22,7 @@
         <origin xyz="0.245 0.0 0.0" rpy="${-pi/2} 0 ${-pi/2}"/>
     </joint>
 
-    <link name="camera_link_optical" type="fixed"></link>
+    <link name="camera_link_optical"></link>
 
     <gazebo reference="camera_link">
         <material>Gazebo/Red</material>
