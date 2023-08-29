@@ -5,8 +5,6 @@
         <plugin name="skid_steer" filename="libgazebo_ros_skid_steer_drive.so">
 
             <!-- Wheel information-->
-            <commandTopic>cmd_vel</commandTopic>
-            <odometryTopic>odom</odometryTopic>
             <leftRearJoint>left_Rear_wheel_joint</leftRearJoint>
             <leftFrontJoint>Left_Front_wheel_joint</leftFrontJoint>
             <rightFrontJoint>Right_Front_wheel_joint</rightFrontJoint>
