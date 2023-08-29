@@ -4,6 +4,10 @@
     <xacro:include filename="robot_core.xacro"/>
     <xacro:include filename="gazebo_control.xacro"/>
     <xacro:include filename="lidar.xacro"/>
+<<<<<<< HEAD
     <xacro:include filename="depth_camera.xacro"/>
     
+=======
+
+>>>>>>> parent of b8c4fcd... depth camera added
 </robot>
