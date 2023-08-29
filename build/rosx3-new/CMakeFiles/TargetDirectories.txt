@@ -1,0 +1,9 @@
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/install/strip.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/install/local.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/install.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/list_install_components.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/rebuild_cache.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/edit_cache.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/test.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/rosx3-new_uninstall.dir
+/home/imaps/rosx3-new/build/rosx3-new/CMakeFiles/uninstall.dir

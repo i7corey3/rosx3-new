@@ -1,0 +1,69 @@
+[0.010s] Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/imaps/rosx3-new -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/imaps/rosx3-new/install/rosx3-new
+[0.043s] -- The C compiler identification is GNU 9.4.0
+[0.074s] -- The CXX compiler identification is GNU 9.4.0
+[0.076s] -- Check for working C compiler: /usr/bin/cc
+[0.116s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.116s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.209s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.276s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.276s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.384s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.399s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.448s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.448s] -- Configured cppcheck include dirs: 
+[0.448s] -- Configured cppcheck exclude dirs and/or files: 
+[0.450s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.451s] -- Configured cpplint exclude dirs and/or files: 
+[0.451s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.452s] -- Added test 'lint_cmake' to check CMake code style
+[0.453s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.456s] -- Added test 'uncrustify' to check C / C++ code style
+[0.456s] -- Configured uncrustify additional arguments: 
+[0.456s] -- Added test 'xmllint' to check XML markup files
+[0.457s] -- Configuring done
+[0.459s] -- Generating done
+[0.459s] -- Build files have been written to: /home/imaps/rosx3-new/build/rosx3-new
+[0.461s] Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/imaps/rosx3-new -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/imaps/rosx3-new/install/rosx3-new
+[0.464s] Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/imaps/rosx3-new/build/rosx3-new -- -j24 -l24
+[0.485s] Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/imaps/rosx3-new/build/rosx3-new -- -j24 -l24
+[0.502s] Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/imaps/rosx3-new/build/rosx3-new
+[0.505s] -- Install configuration: ""
+[0.506s] -- Execute custom install script
+[0.506s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/config/empty.yaml
+[0.510s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/config/view_bot.rviz
+[0.516s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/depth_camera.xacro
+[0.521s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/gazebo_control.xacro
+[0.525s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/inertial_macros.xacro
+[0.530s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/lidar.xacro
+[0.534s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/robot.urdf.xacro
+[0.538s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/robot_core.xacro
+[0.543s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/launch/launch_sim.launch.py
+[0.547s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/launch/rsp.launch.py
+[0.551s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/worlds/empty.world
+[0.556s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/worlds/obstacle_wrld1.world
+[0.560s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/ament_index/resource_index/package_run_dependencies/rosx3-new
+[0.564s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/ament_index/resource_index/parent_prefix_path/rosx3-new
+[0.569s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/ament_prefix_path.sh
+[0.573s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/ament_prefix_path.dsv
+[0.577s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/path.sh
+[0.581s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/path.dsv
+[0.585s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.bash
+[0.590s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.sh
+[0.594s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.zsh
+[0.598s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.dsv
+[0.603s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/package.dsv
+[0.608s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/ament_index/resource_index/packages/rosx3-new
+[0.612s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/cmake/rosx3-newConfig.cmake
+[0.616s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/cmake/rosx3-newConfig-version.cmake
+[0.621s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/package.xml
+[0.626s] Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/imaps/rosx3-new/build/rosx3-new

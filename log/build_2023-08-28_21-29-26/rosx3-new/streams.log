@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/imaps/rosx3-new/build/rosx3-new -- -j24 -l24
+[0.032s] Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/imaps/rosx3-new/build/rosx3-new -- -j24 -l24
+[0.048s] Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/imaps/rosx3-new/build/rosx3-new
+[0.053s] -- Install configuration: ""
+[0.053s] -- Execute custom install script
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/config/empty.yaml
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/config/view_bot.rviz
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/depth_camera.xacro
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/gazebo_control.xacro
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/inertial_macros.xacro
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/lidar.xacro
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/robot.urdf.xacro
+[0.054s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/description/robot_core.xacro
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/launch/launch_sim.launch.py
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/launch/rsp.launch.py
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/worlds/empty.world
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/worlds/obstacle_wrld1.world
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/ament_index/resource_index/package_run_dependencies/rosx3-new
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/ament_index/resource_index/parent_prefix_path/rosx3-new
+[0.055s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/path.sh
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/environment/path.dsv
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.bash
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.sh
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.zsh
+[0.056s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/local_setup.dsv
+[0.056s] -- Symlinking: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/package.dsv
+[0.062s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/ament_index/resource_index/packages/rosx3-new
+[0.062s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/cmake/rosx3-newConfig.cmake
+[0.062s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/cmake/rosx3-newConfig-version.cmake
+[0.062s] -- Up-to-date symlink: /home/imaps/rosx3-new/install/rosx3-new/share/rosx3-new/package.xml
+[0.063s] Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/imaps/rosx3-new/build/rosx3-new

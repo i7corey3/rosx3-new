@@ -1,0 +1,4 @@
+source;share/rosx3-new/local_setup.bash
+source;share/rosx3-new/local_setup.dsv
+source;share/rosx3-new/local_setup.sh
+source;share/rosx3-new/local_setup.zsh

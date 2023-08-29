@@ -1,0 +1,4 @@
+Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/imaps/rosx3-new/build/rosx3-new -- -j24 -l24
+Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/imaps/rosx3-new/build/rosx3-new -- -j24 -l24
+Invoking command in '/home/imaps/rosx3-new/build/rosx3-new': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/imaps/rosx3-new/build/rosx3-new
+Invoked command in '/home/imaps/rosx3-new/build/rosx3-new' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/imaps/rosx3-new/build/rosx3-new
